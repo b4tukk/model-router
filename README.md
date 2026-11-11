@@ -78,3 +78,7 @@ skills/model-router/
 Model versions and prices change. Prices were checked on November 9, 2026 and live in two files that should be updated together: `references/pricing.md` and `assets/prices.json`. The subagent templates use tier aliases (`haiku`, `sonnet`, `opus`, `fable`), so they follow new versions without edits.
 
 The tier assignments are a starting point, not a benchmark: test them on your own work.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

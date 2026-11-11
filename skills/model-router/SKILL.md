@@ -58,7 +58,8 @@ A typical shape, to adapt rather than copy:
 Every change of model has a cost: a handoff must be written and the next model must read it and re-open the files it needs. So switch only where it pays.
 
 - Merge neighbouring phases that land on the same tier into one.
-- Fold a small phase into its neighbour instead of switching for it. Starting a subagent has a fixed overhead of its own, whatever the model, so a tiny phase run separately can cost more than doing it on a pricier model in place. If a phase is only a few tool calls, the handoff costs more than the saving; let the current model do it, unless the risk calls for a stronger one.
+- Fold a phase that is only a few tool calls into its neighbour instead of switching for it, because starting a subagent has a fixed overhead whatever the model.
+- Do not fold away work with real reading volume. Research, surveying a codebase or comparing library options means many pages of input, and that is exactly where the fast tier saves the most. Give it its own fast-tier phase even when the project is small. If a phase is only a few tool calls, the handoff costs more than the saving; let the current model do it, unless the risk calls for a stronger one.
 - Order phases so that same-tier work sits together where the dependencies allow.
 - Moving up for risk is always justified. Moving down is only worth it for a sizeable block of work.
 
