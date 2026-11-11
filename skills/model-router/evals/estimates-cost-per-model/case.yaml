@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: estimates-cost-per-model
+expected_outcome: |
+  Per-model dollar figures from the price snapshot with long-context rates applied: Haiku about $0.175, Sonnet about $0.70, Opus about $1.40, Fable about $3.50, and OpenAI models at their higher rate above 272K input (Sol about $1.35), with a caveat that prices are a dated snapshot.

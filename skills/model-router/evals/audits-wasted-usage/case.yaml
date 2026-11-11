@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: audits-wasted-usage
+expected_outcome: |
+  A diagnosis of where the usage goes (top model and max effort on everything, mid-session model switches losing the cache, one long session), the biggest fix first, and a note on where the top model is still worth using.

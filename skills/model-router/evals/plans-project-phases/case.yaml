@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: plans-project-phases
+expected_outcome: |
+  A plan file at .model-router/plan.md with a short outline and a table of a handful of phases, each with a model, effort and done-when line. Research or scaffolding is on the fast tier, architecture on the frontier tier, payments and auth on a strong tier, review on a different model from the one that writes the code. Neighbouring same-tier work is merged so there are few model changes, the handoff between phases is described as a short written report, and no application code is written.

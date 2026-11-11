@@ -1,0 +1,8 @@
+name = "reviewer"
+description = "Reviews a diff written by another model. Use before every merge."
+model = "gpt-6.1-sol"
+model_reasoning_effort = "xhigh"
+developer_instructions = """
+Review git diff for bugs, security issues and missing tests.
+List findings by severity. Do not edit files.
+"""

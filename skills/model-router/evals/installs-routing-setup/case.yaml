@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: installs-routing-setup
+expected_outcome: |
+  The project gains four subagents under .claude/agents/ pinned to their models, CLAUDE.md keeps its original content and gains a model routing section, and .claude/settings.json keeps its original keys and stays valid JSON.
+context:
+  scaffold_script: place-files.sh

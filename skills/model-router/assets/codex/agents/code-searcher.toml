@@ -1,0 +1,7 @@
+name = "code-searcher"
+description = "Finds where code is defined and used. Never edits files."
+model = "gpt-6-luna"
+model_reasoning_effort = "low"
+developer_instructions = """
+Search the repository and report file paths, line numbers and short excerpts.
+"""

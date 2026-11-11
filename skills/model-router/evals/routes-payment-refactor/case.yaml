@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: routes-payment-refactor
+expected_outcome: |
+  A short recommendation to use a strong-tier model (Opus) at a raised effort level for payment code, with a review by a different model, and not the cheap or balanced tier.

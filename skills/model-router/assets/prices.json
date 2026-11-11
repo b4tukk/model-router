@@ -1,0 +1,13 @@
+{
+  "checked": "2026-11-09",
+  "unit": "USD per 1M tokens",
+  "models": {
+    "haiku":  {"name": "Haiku 5.5",   "tier": "fast",     "input": 0.10, "output": 0.50, "cliff": {"over_input_tokens": 100000, "input_mult": 5, "output_mult": 5}},
+    "sonnet": {"name": "Sonnet 5.5",  "tier": "balanced", "input": 2,    "output": 10,   "cache_read_mult": 0.05},
+    "opus":   {"name": "Opus 5.5",    "tier": "strong",   "input": 4,    "output": 20,   "cache_read_mult": 0.05},
+    "fable":  {"name": "Fable 5.1",   "tier": "frontier", "input": 10,   "output": 50},
+    "luna":   {"name": "GPT-6 Luna",  "tier": "fast",     "input": 0.10, "output": 0.50, "cliff": {"over_input_tokens": 272000, "input_mult": 2, "output_mult": 1.5}},
+    "sol":    {"name": "GPT-6.1 Sol", "tier": "balanced", "input": 2,    "output": 10,   "cliff": {"over_input_tokens": 272000, "input_mult": 2, "output_mult": 1.5}},
+    "astra":  {"name": "GPT-6 Astra", "tier": "frontier", "input": 10,   "output": 50,   "cliff": {"over_input_tokens": 272000, "input_mult": 2, "output_mult": 1.5}}
+  }
+}
